@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+
+  <title>LERO - Ресторан сучасної кухні</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">LERO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Про нас</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Меню</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Галерея</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reservation">Бронювання</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+          <button class="call-fixed-button">📞 Запросить дзвінок</button>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section d-flex align-items-center">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative z-index-1 text-center">
+      <h1 class="display-3 fw-bold mb-4">Ресторан LERO</h1>
+      <p class="lead mb-5">Смак, який запам'ятовується</p>
+      <a href="#reservation" class="btn btn-primary btn-lg px-4">Забронювати стіл</a>
+    </div>
+  </section>
+  <section id="about" class="py-5 bg-beige">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80" alt="Про нас" class="img-fluid rounded-3 shadow"/>
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-4">Про нас</h2>
+          <p class="text-muted">LERO — це поєднання класики та сучасності, де кожна страва є витвором мистецтва. Ми прагнемо дарувати нашим гостям не просто їжу, а емоції та враження.</p>
+          <p class="text-muted">Наша команда шеф-кухарів щоденно працює над удосконаленням меню, аби кожен візит до LERO був незабутнім.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-5">
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5">Наше меню</h2>
+            <div class="row g-4">
+                <!-- Закуски -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 menu-item shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" class="card-img-top" alt="Закуски">
+                        <div class="card-body">
+                            <h5 class="card-title">Закуски</h5>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Тартар з яловичини</span>
+                                    <span>320₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Брускети з авокадо</span>
+                                    <span>220₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2">
+                                    <span>Сирне плато</span>
+                                    <span>380₴</span>
+                                </li>                                
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                     <span>Тартар з лосося</span>
+                                    <span>290₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Карпачо з телятини</span>
+                                    <span>310₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Брускета з прошуто і томатами</span>
+                                    <span>180₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Сирна тарілка</span>
+                                    <span>270₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Хумус з овочами</span>
+                                    <span>160₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Олівки Kalamata</span>
+                                    <span>130₴</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 menu-item shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" class="card-img-top" alt="Основні страви">
+                        <div class="card-body">
+                            <h5 class="card-title">Основні страви</h5>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Рібай на кістці</span>
+                                    <span>650₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Лосось під соусом з вершків</span>
+                                    <span>520₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2">
+                                    <span>Равіолі з трюфелями</span>
+                                    <span>480₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Утиная грудка з ягодами</span>
+                                    <span>540₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Телятина з розмарином</span>
+                                    <span>580₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Паста з морепродуктами</span>
+                                    <span>490₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Куряче філе з пармезаном</span>
+                                    <span>430₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Філе міньйон з пюре</span>
+                                    <span>610₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2">
+                                    <span>Гречотто з білими грибами</span>
+                                    <span>390₴</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 menu-item shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1612201142855-7873bc1661b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Десерти">
+                        <div class="card-body">
+                            <h5 class="card-title">Десерти</h5>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Тірамісу</span>
+                                    <span>220₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Чізкейк з полуницею</span>
+                                    <span>200₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2">
+                                    <span>Шоколадний фондан</span>
+                                    <span>240₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Медовик</span>
+                                    <span>190₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Панна котта з маракуєю</span>
+                                    <span>210₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Еклер з фісташковим кремом</span>
+                                    <span>170₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2 border-bottom">
+                                    <span>Сорбет з манго</span>
+                                    <span>160₴</span>
+                                </li>
+                                <li class="d-flex justify-content-between py-2">
+                                    <span>Мусовий торт з чорницею</span>
+                                    <span>230₴</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section id="gallery" class="py-5 bg-beige">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Галерея</h2>
+      <div class="row g-3">
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80" class="img-fluid rounded-3 shadow-sm" alt="Зображення 1"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-3 shadow-sm" alt="Зображення 2"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1676471926534-d5c9771909fa?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-3 shadow-sm" alt="Зображення 3"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1617196035154-1e7e6e28b0db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-3 shadow-sm" alt="Зображення 4"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-3 shadow-sm" alt="Зображення 5"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1619371042685-827b1c646923?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1lYWx8ZW58MHx8MHx8fDA%3D" class="img-fluid rounded-3 shadow-sm" alt="Зображення 6"></div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <section id="reservation" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Бронювання</h2>
+      <p class="text-muted mb-4">Заповніть форму, щоб забронювати стіл у нашому ресторані</p>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-4"><input type="text" class="form-control" placeholder="Ваше ім’я" required></div>
+        <div class="col-md-4"><input type="email" class="form-control" placeholder="Email" required></div>
+        <div class="col-md-4"><input type="text" class="form-control" placeholder="Телефон" required></div>
+        <div class="col-md-4"><input type="date" class="form-control" required></div>
+        <div class="col-md-4"><input type="time" class="form-control" required></div>
+        <div class="col-md-8"><textarea class="form-control" rows="3" placeholder="Додаткові побажання"></textarea></div>
+        <div class="col-12"><button type="submit" class="btn btn-primary btn-lg px-5">Забронювати</button></div>
+      </form>
+    </div>
+  </section>
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="fw-bold mb-4">LERO</h3>
+                    <p>Сучасний ресторан з авторською кухнею та неперевершеною атмосферою.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="fw-bold mb-4">Години роботи</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">Понеділок - П'ятниця: 11:00 - 23:00</li>
+                        <li class="mb-2">Субота: 10:00 - 00:00</li>
+                        <li>Неділя: 10:00 - 22:00</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-4">Контакти</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i> м. Київ, вул. Алматинська, 41Б</li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i> +380 99 921 1502</li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i> +380 63 123 9074</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i> LEROKYIV@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
